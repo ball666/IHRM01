@@ -1,0 +1,24 @@
+2020-03-05 11:13:45,307 INFO [root] [test_dep.py(test01_login:21)] - 部门模块登录的接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f4469cd7-1176-4fcc-9f2e-86e129087760'}:
+2020-03-05 11:13:45,311 INFO [root] [test_dep.py(test01_login:23)] - 令牌为Bearer f4469cd7-1176-4fcc-9f2e-86e129087760:
+2020-03-05 11:13:45,423 INFO [root] [test_dep.py(test02_add_dep:33)] - 添加部门接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-05 11:13:45,747 INFO [root] [test_dep.py(test03_find_dep:49)] - 查询部门接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234827331511889920', 'pid': '', 'companyId': '1', 'name': '猴子部', 'code': '899w949w2', 'managerId': None, 'manager': '柯基家族', 'introduce': '这是一个只有猴子才能进的部门', 'createTime': None}}
+2020-03-05 11:13:45,859 INFO [root] [test_dep.py(test04_update_dep:59)] - 修改部门接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-05 11:13:46,185 INFO [root] [test_dep.py(test05_delete_dep:75)] - 删除部门接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-05 11:13:46,284 INFO [root] [test_emp.py(test01_login_success:22)] - 员工模块的登录接口为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '99fac281-c708-41e2-94e0-cbff0c20fb26'}
+2020-03-05 11:13:46,285 INFO [root] [test_emp.py(test01_login_success:25)] - 取出的令牌为:Bearer 99fac281-c708-41e2-94e0-cbff0c20fb26
+2020-03-05 11:13:46,401 INFO [root] [test_emp.py(test02_add_emp:34)] - 添加员工响应体为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235403093931544576'}}:
+2020-03-05 11:13:46,402 INFO [root] [test_emp.py(test02_add_emp:39)] - id值为:1235403093931544576
+2020-03-05 11:13:46,578 INFO [root] [test_emp.py(test03_find_emp:45)] - 查询员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235403093931544576', 'mobile': '19654648523', 'username': '阿拉斯加sshe11h5435334', 'password': 'bfae767d8c2ef415e71cf58fe1148d72', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066240656856453120', 'timeOfEntry': '2019-07-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': '开发部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-05 11:13:46,691 INFO [root] [test_emp.py(test04_update_emp:53)] - 修改员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235403093931544576'}}
+2020-03-05 11:13:46,978 INFO [root] [test_emp.py(test04_update_emp:62)] - 查询的结果为('小柯基sshe11yrh543334',)
+2020-03-05 11:13:47,090 INFO [root] [test_emp.py(test05_delete_emp:74)] - 删除员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-05 11:13:47,225 INFO [root] [test_login.py(test01_login_success:21)] - 登录成功的信息为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ff04db7d-8f86-417c-96a9-77f8ee7c09bf'}
+2020-03-05 11:13:47,329 INFO [root] [test_login.py(test02_username_no_exist:29)] - 用户名不存在的信息为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-05 11:13:47,475 INFO [root] [test_login.py(test03_password_error:37)] - 密码错误的信息为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-05 11:13:47,597 INFO [root] [test_login.py(test04_no_params:45)] - 无参数的信息为{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-05 11:13:47,702 INFO [root] [test_login.py(test05_username_is_empty:53)] - 用户名为空的信息为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-05 11:13:47,801 INFO [root] [test_login.py(test06_password_is_empty:61)] - 密码为空的信息为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-05 11:13:49,304 INFO [root] [test_login.py(test07_no_mobile:69)] - 缺少mobile参数的信息为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-05 11:13:49,389 INFO [root] [test_login.py(test08_no_password:77)] - 缺少password参数的信息为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-05 11:13:49,490 INFO [root] [test_login.py(test09_no_password:85)] - 多参的信息为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '49a8ae7e-edb4-4dfa-8b56-94618c8e2850'}
+2020-03-05 11:13:49,596 INFO [root] [test_login.py(test10_params_error:93)] - 错误参数的信息为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}

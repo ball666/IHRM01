@@ -1,0 +1,8 @@
+2020-03-03 21:07:43,693 INFO [root] [test_dep.py(test01_login:21)] - 部门模块登录的接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '8499167a-23b0-4064-ac29-d2bc594bcf4a'}:
+2020-03-03 21:07:43,695 INFO [root] [test_dep.py(test01_login:23)] - 令牌为Bearer 8499167a-23b0-4064-ac29-d2bc594bcf4a:
+2020-03-03 21:07:48,437 INFO [root] [test_dep.py(test01_login:21)] - 部门模块登录的接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'de6544bc-b49e-4bd7-ac60-0fca4f915d00'}:
+2020-03-03 21:07:48,437 INFO [root] [test_dep.py(test01_login:23)] - 令牌为Bearer de6544bc-b49e-4bd7-ac60-0fca4f915d00:
+2020-03-03 21:07:48,665 INFO [root] [test_dep.py(test02_add_dep:33)] - 添加部门接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-03 21:07:49,431 INFO [root] [test_dep.py(test03_find_dep:49)] - 查询部门接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234825582508093440', 'pid': '', 'companyId': '1', 'name': '猴子部', 'code': '899w949w2', 'managerId': None, 'manager': '柯基家族', 'introduce': '这是一个只有猴子才能进的部门', 'createTime': None}}
+2020-03-03 21:07:49,647 INFO [root] [test_dep.py(test04_update_dep:59)] - 修改部门接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-03 21:07:50,333 INFO [root] [test_dep.py(test05_delete_dep:75)] - 删除部门接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

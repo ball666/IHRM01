@@ -1,0 +1,3 @@
+2020-03-03 20:58:54,737 INFO [root] [test_dep.py(test01_login:21)] - 部门模块登录的接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'f738244d-3d0d-4508-a8b6-6f28283ede6a'}:
+2020-03-03 20:58:54,740 INFO [root] [test_dep.py(test01_login:23)] - 令牌为Bearer f738244d-3d0d-4508-a8b6-6f28283ede6a:
+2020-03-03 20:58:54,919 INFO [root] [test_dep.py(test02_add_dep:33)] - 添加部门接口为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
